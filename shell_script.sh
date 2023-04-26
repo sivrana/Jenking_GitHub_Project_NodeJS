@@ -1,4 +1,4 @@
 #!/bin/bash
 pkill -9 node
-node app.js &
+nohup node app.js &
 echo
